@@ -56,7 +56,7 @@ const profileGen = (cb) => {
   
 };
 profileGen((something) => {
-  console.log(`\n ${something.name} is a ${something.hobby} enthusiast when not planning to get a pet ${something.pet}!\n ${something.name} can often be found at home listening to ${something.music} while monching on ${something.food},\n pretending to be at ${something.place} instead. If ${something.name} could have any superpower, some problems would be caused by their ${something.power}!`);
+  console.log(`\n ${something.name} is a ${something.hobby} enthusiast when not planning to get a pet ${something.pet}!\n ${something.name} can often be found at home listening to ${something.music} while monching on ${something.food},\n pretending to be at ${something.place} instead. If ${something.name} could have any superpower,/n some problems would be caused by their ${something.power}!`);
 });
 
 
